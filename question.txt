@@ -1,0 +1,238 @@
+1. Reverse a String
+Input: HelloWorld
+Output: dlroWolleH                                 >
+
+2. Check whether a String is Palindrome
+Input: madam
+Output: Palindrome                                  >
+
+3. Count Vowels and Consonants
+Input: Programming
+Output: Vowels = 3, Consonants = 8
+
+4. Find Duplicate Characters
+Input: programming
+Output: r, g, m
+
+5. Remove Duplicate Characters
+Input: banana
+Output: ban
+
+6. Count Frequency of Each Character
+Input: success
+Output:
+s = 3
+u = 1
+c = 2
+e = 1
+
+7. Check whether Two Strings are Anagrams
+Input:
+listen
+silent
+Output: Anagram
+
+8. Find First Non-Repeated Character
+Input: swiss
+Output: w
+
+9. Check whether a String Contains Only Digits
+Input: 123456
+Output: True
+
+10. Count Number of Words
+Input: Java is a programming language
+Output: 5
+
+11. Find Largest Word
+Input: Java is an object oriented programming language
+Output: programming
+
+12. Replace Spaces with Special Characters
+Input: Hello World Java
+Output: Hello@World@Java
+
+13. Toggle Case
+Input: JaVa ProGraM
+Output: jAvA pROgRAm
+
+14. Sort Characters
+Input: dcba
+Output: abcd
+
+15. Find Length Without Using length()
+Input: OpenAI
+Output: 6
+
+16. Compare Two Strings Without equals()
+Input:
+hello
+hello
+Output: Equal
+
+17. Remove White Spaces
+Input: J a v a P r o
+Output: JavaPro
+
+18. Find Substring
+Input:
+Programming
+gram
+Output: Found
+
+19. Check Rotation
+Input:
+ABCD
+CDAB
+Output: Rotation
+
+20. Find All Permutations
+Input: ABC
+Output:
+ABC
+ACB
+BAC
+BCA
+CAB
+CBA
+
+21. Reverse Words in a Sentence
+Input: Java is powerful
+Output: powerful is Java
+
+22. Longest Substring Without Repeating Characters
+Input: abcabcbb
+Output: abc
+
+23. Common Characters
+Input:
+hello
+world
+Output: l, o
+
+24. Count Special Characters
+Input: Java@123#%!
+Output: 4
+
+25. Maximum Occurring Character
+Input: success
+Output: s
+
+26. Minimum Occurring Character
+Input: success
+Output: u
+
+27. Compress a String
+Input: aaabbccdd
+Output: a3b2c2d2
+
+28. Remove a Given Character
+Input:
+programming
+g
+Output: prorammin
+
+29. Check Empty or Null
+Input: ""
+Output: Empty String
+
+30. Split Without split()
+Input: Java,Python,C++
+Output:
+Java
+Python
+C++
+
+31. Find ASCII Value of Each Character
+Input: ABC
+Output:
+A = 65
+B = 66
+C = 67
+
+32. Toggle Each Character
+Input: HeLLo
+Output: hEllO
+
+33. Print Even Position Characters
+Input: Programming
+Output: rgamn
+
+34. Print Odd Position Characters
+Input: Programming
+Output: Pormig
+
+35. Find Duplicate Words
+Input: Java Python Java C Python
+Output:
+Java
+Python
+
+36. Count Occurrence of a Word
+Input:
+Java is easy Java is powerful
+Java
+Output: 2
+
+37. Capitalize First Letter
+Input: java is powerful
+Output: Java Is Powerful
+
+38. Check whether Two Strings are Equal
+Input:
+hello
+hello
+Output: Equal
+
+39. Reverse Each Word
+Input: Java is easy
+Output: avaJ si ysae
+
+40. Find Longest Palindromic Substring
+Input: babad
+Output: bab
+
+41. Check whether a String is Pangram
+Input: The quick brown fox jumps over the lazy dog
+Output: Pangram
+
+42. Remove Consecutive Repeating Characters
+Input: aaabbbcccaaa
+Output: abca
+
+43. Find Second Most Repeated Character
+Input: aabbbccccdd
+Output: b
+
+44. Convert String to Integer
+Input: 12345
+Output: 12345
+
+45. Convert Integer to String
+Input: 12345
+Output: "12345"
+
+46. Find Smallest Word
+Input: Java is an object oriented language
+Output: is
+
+47. Check Balanced Parentheses
+Input: ({[]})
+Output: Balanced
+
+48. Find Character with Highest Frequency
+Input: mississippi
+Output: i
+
+49. Remove All Occurrences of a Character
+Input:
+programming
+m
+Output: prograing
+
+50. Check Valid Shuffle of Two Strings
+Input:
+XY
+12
+X1Y2
+Output: Valid Shuffle
