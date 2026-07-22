@@ -1,6 +1,6 @@
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.LinkedHashMap;
-import java.util.List;
+//import java.util.List;
 import java.util.Map;
 
 class FirstNon{
@@ -9,12 +9,7 @@ class FirstNon{
         Map<Integer,Integer> mp = new LinkedHashMap<>();
 
         for(int n: a){
-            if(mp.containsKey(n)){
-                mp.put(n , mp.get(n)+1);
-            }
-            else{
-                mp.put(n, 1);
-            }
+            mp.put( n , mp.getOrDefault(mp, 0)+1);
         }
 
         for(Map.Entry<Integer,Integer> entry : mp.entrySet()){
