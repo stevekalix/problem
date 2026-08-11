@@ -10,11 +10,13 @@ public class TwoMissing {
         for (int number : arr) {
             st.add(number);
         }
+
         for (int i = 1; i <= arr.length + 2; i++) {
 
             if (!st.contains(i)) {
                 System.out.print(i + " ");
             }
         }
+
     }
 }

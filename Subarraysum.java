@@ -26,9 +26,4 @@ public class Subarraysum {
 
     }
 
-    private static void backtrack(int[] arr, int i, int target, ArrayList arrayList) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'backtrack'");
-    }
-
 }
