@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Subarraysum {
 
-    static List<List<Integer>> list = new ArrayList<>();
+    static ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
     static void backtrack(int arr[], int index, int target, List ls) {
 
