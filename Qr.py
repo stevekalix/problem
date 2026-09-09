@@ -2,14 +2,14 @@ import qrcode
 
 # 1. Define your data list (Name, URL)
 links_to_generate = [
-    ("Google", "https://google.com"),
-    ("GitHub", "https://github.com"),
-    ("Python", "https://python.org")
+    ("Google", "https://manikanadan.com"),
+    # ("GitHub", "https://github.com"),
+    # ("Python", "https://Manikandan.org")
 ]
 
 # 2. Loop through the list and create files
 for name, url in links_to_generate:
-    qr = qrcode.QRCode(version=1, box_size=10, border=4)
+    qr = qrcode.QRCode(version=1, box_size=15, border=5)
     qr.add_data(url)
     qr.make(fit=True)
     
