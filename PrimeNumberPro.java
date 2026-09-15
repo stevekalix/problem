@@ -16,10 +16,10 @@ class PrimeNumberPro{
         return true;
     }
     public static void main(String args[]){
-       int n=4;
+       int n=7;
        int index =0;
        
-       while (isPrime(n)){
+       while (!isPrime(n)){
         index++;
         n=n+1;        
        }

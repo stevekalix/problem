@@ -3,28 +3,34 @@ import java.util.ArrayList;
 
 public class AllPosibleSubArray {
 
-    // static ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+    static ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
-    // static void possible(int arr[], int index, ArrayList<Integer> ls) {
+    static void possible(int arr[], int index, ArrayList<Integer> ls) {
 
-    //     if (index == arr.length ) {
-    //         list.add(new ArrayList<>(ls));
-    //         return;
-    //     }
+        if (index == arr.length ) {
+            list.add(new ArrayList<>(ls));
+            return;
+        }
 
-    //     ls.add(arr[index]);
-    //     possible(arr, index + 1, ls);
-    //     ls.remove(ls.size() - 1);
-    //     possible(arr, index + 1, ls);
+        ls.add(arr[index]);
+        possible(arr, index + 1, ls);
+        ls.remove(ls.size() - 1);
+        possible(arr, index + 1, ls);
 
-    // }
+    }
 
-    // public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    //     int arr[] = new int[] { 1, 2 , 3 ,4 };
-    //     possible(arr, 0, new ArrayList<>());
-
-    //   //  System.out.println(list);
+        int arr[] = new int[] { 1, 2 , 3 };
+        possible(arr, 0, new ArrayList<>());
+        for(ArrayList<Integer> l : list){
+            if(l.size()>0){
+                 System.out.print(l+"  ");
+            }
+            else{
+                continue;
+            }
+        }
 
     //   int target = 6;
 
@@ -42,18 +48,15 @@ public class AllPosibleSubArray {
 
     //         System.out.println();
     //     }
+    }
+    // public static void main(String arr[]){
 
+    //     for(int i=0;i<5;i++){
+    //         if(i%2==0){
+                
+    //         }
+    //     }
     // }
 
-
-    public static void main(String arr[]){
-
-        for(int i=0;i<5;i++){
-            if(i%2==0){
-                
-            }
-        }
-    }
-
     // 5 10 20 35 55 
-}
+} 
