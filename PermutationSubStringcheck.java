@@ -11,11 +11,7 @@ class PermutationSubStringcheck{
                 s+=c;
             }
             list.add(s);
-            if(s==fat){
-                return true;
-            }
             s = "";         
-
         }
 
         for(int i=0;i<arr.length;i++){
@@ -31,8 +27,8 @@ class PermutationSubStringcheck{
 
     public static void main(String[] args) {
         
-        String st = "geeks";
-        String fat = "eke";
+        String st = "abcd";
+        String fat = "ek";
         char ch[]= st.toCharArray();
       
         System.out.println(  per(ch,fat,new ArrayList<>()));

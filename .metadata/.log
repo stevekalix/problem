@@ -1,0 +1,513 @@
+!SESSION 2026-09-16 23:53:48.467 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-09-16 23:54:37.851
+!MESSAGE Both 'com.sap.bw.model.core' and 'com.sap.bw.model.datastore' register a package for 'http://www.sap.com/bw/dataProtection.ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-09-16 23:54:37.853
+!MESSAGE Both 'com.sap.bw.model.dsub' and 'com.sap.bw.model.dsub' register a package for 'http://www.sap.com/bw/datasubscription.ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-09-16 23:54:37.856
+!MESSAGE Both 'com.sap.bw.model.core' and 'com.sap.bw.model.dsub' register a package for 'http://www.sap.com/bw/modeling/BwCore.ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-09-16 23:54:37.864
+!MESSAGE Both 'org.abapgit.adt.backend' and 'com.sap.adt.tools.core.base' register a package for 'http://www.w3.org/2005/Atom'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-09-16 23:54:37.888
+!MESSAGE Both 'com.sap.bw.model.core' and 'com.sap.bw.model.datastore' register an extension parser for 'dpp'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-09-16 23:54:37.889
+!MESSAGE Both 'com.sap.bw.qd.model' and 'com.sap.ndb.studio.model.data' register an extension parser for 'filter'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-09-16 23:54:37.891
+!MESSAGE Both 'org.abapgit.adt.backend' and 'com.sap.adt.tools.core.base' register an extension parser for 'atom'
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-16 23:54:38.238
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-16 23:55:02.184
+!MESSAGE Logback config file: C:\Users\Venkatesan\OneDrive\Desktop\records\hackwithinfy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui.workbench 4 2 2026-09-16 23:55:03.308
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4915)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.graphics.ImageData.<init>(ImageData.java:424)
+	at org.eclipse.swt.graphics.ImageData.<init>(ImageData.java:262)
+	at org.eclipse.swt.graphics.Image$ImageGcDrawerWrapper.loadImageData(Image.java:2836)
+	at org.eclipse.swt.graphics.Image$ImageGcDrawerWrapper.loadImageData(Image.java:2824)
+	at org.eclipse.swt.graphics.Image$ImageGcDrawerWrapper.newImageData(Image.java:2819)
+	at org.eclipse.swt.graphics.Image.lambda$14(Image.java:1398)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.lambda$2(Image.java:190)
+	at java.base/java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.executeOnHandle(Image.java:188)
+	at org.eclipse.swt.graphics.Image.getImageData(Image.java:1390)
+	at org.eclipse.swt.internal.DPIUtil.scaleImage(DPIUtil.java:253)
+	at org.eclipse.swt.internal.DPIUtil.autoScaleImageData(DPIUtil.java:227)
+	at org.eclipse.swt.internal.DPIUtil.scaleImageData(DPIUtil.java:213)
+	at org.eclipse.swt.graphics.Image$ImageFromImageDataProviderWrapper.initializeHandleFromSource(Image.java:2193)
+	at org.eclipse.swt.graphics.Image$ImageFromImageDataProviderWrapper.newImageHandle(Image.java:2188)
+	at org.eclipse.swt.graphics.Image.lambda$6(Image.java:941)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.lambda$0(Image.java:157)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.getOrCreate(Image.java:157)
+	at org.eclipse.swt.graphics.Image.getHandle(Image.java:941)
+	at org.eclipse.swt.graphics.Image.win32_getHandle(Image.java:933)
+	at org.eclipse.swt.widgets.Control.updateBackgroundImage(Control.java:4786)
+	at org.eclipse.swt.widgets.Composite.updateBackgroundImage(Composite.java:1291)
+	at org.eclipse.swt.widgets.Control.setBackgroundImage(Control.java:3218)
+	at org.eclipse.ui.internal.Workbench$3.run(Workbench.java:830)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:875)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:642)
+	at org.eclipse.swt.internal.DPIUtil.runWithAutoScaleValue(DPIUtil.java:490)
+	at org.eclipse.ui.internal.Workbench$AutoscaleAdaptation.runWithInitialAutoScaleValue(Workbench.java:3683)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:665)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.ui 4 0 2026-09-16 23:55:03.318
+!MESSAGE Could not instantiate splash
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4915)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.graphics.ImageData.<init>(ImageData.java:424)
+	at org.eclipse.swt.graphics.ImageData.<init>(ImageData.java:262)
+	at org.eclipse.swt.graphics.Image$ImageGcDrawerWrapper.loadImageData(Image.java:2836)
+	at org.eclipse.swt.graphics.Image$ImageGcDrawerWrapper.loadImageData(Image.java:2824)
+	at org.eclipse.swt.graphics.Image$ImageGcDrawerWrapper.newImageData(Image.java:2819)
+	at org.eclipse.swt.graphics.Image.lambda$14(Image.java:1398)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.lambda$2(Image.java:190)
+	at java.base/java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.executeOnHandle(Image.java:188)
+	at org.eclipse.swt.graphics.Image.getImageData(Image.java:1390)
+	at org.eclipse.swt.internal.DPIUtil.scaleImage(DPIUtil.java:253)
+	at org.eclipse.swt.internal.DPIUtil.autoScaleImageData(DPIUtil.java:227)
+	at org.eclipse.swt.internal.DPIUtil.scaleImageData(DPIUtil.java:213)
+	at org.eclipse.swt.graphics.Image$ImageFromImageDataProviderWrapper.initializeHandleFromSource(Image.java:2193)
+	at org.eclipse.swt.graphics.Image$ImageFromImageDataProviderWrapper.newImageHandle(Image.java:2188)
+	at org.eclipse.swt.graphics.Image.lambda$6(Image.java:941)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.lambda$0(Image.java:157)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.eclipse.swt.graphics.Image$ImageHandleManager.getOrCreate(Image.java:157)
+	at org.eclipse.swt.graphics.Image.getHandle(Image.java:941)
+	at org.eclipse.swt.graphics.Image.win32_getHandle(Image.java:933)
+	at org.eclipse.swt.widgets.Control.updateBackgroundImage(Control.java:4786)
+	at org.eclipse.swt.widgets.Composite.updateBackgroundImage(Composite.java:1291)
+	at org.eclipse.swt.widgets.Control.setBackgroundImage(Control.java:3218)
+	at org.eclipse.ui.internal.Workbench$3.run(Workbench.java:830)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:875)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:642)
+	at org.eclipse.swt.internal.DPIUtil.runWithAutoScaleValue(DPIUtil.java:490)
+	at org.eclipse.ui.internal.Workbench$AutoscaleAdaptation.runWithInitialAutoScaleValue(Workbench.java:3683)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:665)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.jface 2 0 2026-09-16 23:55:10.151
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-09-16 23:55:10.151
+!MESSAGE A conflict occurred for CTRL+SHIFT+F3:
+Binding(CTRL+SHIFT+F3,
+	ParameterizedCommand(Command(com.sap.bw.menu.ui.SingleActivationCommand,Activate BW Object,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		WorkbenchHandlerServiceHandler("com.sap.bw.menu.ui.SingleActivationCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+F3,
+	ParameterizedCommand(Command(org.eclipse.xtext.ui.shared.OpenXtextElementCommand,Open Model Element,
+		Open the declaration of an Xtext element,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.xtext.ui.shared.OpenXtextElementCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-09-16 23:55:10.152
+!MESSAGE A conflict occurred for ALT+CTRL+SHIFT+T:
+Binding(ALT+CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.terminal.view.ui.command.launchToolbar,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.terminal.view.ui.command.launchToolbar"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.view.ui.command.launchToolbar,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm.terminal.view.ui.command.launchToolbar"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-09-16 23:55:10.152
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.terminal.connector.local.command.launch"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm.terminal.connector.local.command.launch"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-09-16 23:55:19.955
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-09-16 23:55:19.958
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-16 23:55:19.985
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Venkatesan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-09-16 23:55:20.153
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.buildship.core 2 0 2026-09-16 23:55:20.583
+!MESSAGE Could not load Gradle version information
+!STACK 0
+org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: services.gradle.org
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1252)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.297
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.488.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.343
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'none',
+  noProxyCount: 0,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-09-16 23:55:24.345
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.373
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.376
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Venkatesan\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.457
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 7 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.458
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 195 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.500
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://api.github.com/embeddings/models> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.501
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND copilot-telemetry.githubusercontent.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'copilot-telemetry.githubusercontent.com'
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.502
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://api.github.com/copilot_internal/v2/token> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-16 23:55:24.506
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[GithubAvailableEmbeddingTypes] Error fetching available embedding types FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\cls-source\dist\main.js:1503:30559)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async cachingFetch (C:\snapshot\cls-source\dist\main.js:1503:32639)
+    at async EX.fetch (C:\snapshot\cls-source\dist\main.js:3770:43808)
+    at async tNe.fetch (C:\snapshot\cls-source\dist\main.js:3895:39961)
+    at async apiFetch (C:\snapshot\cls-source\dist\main.js:1531:8658)
+    at async HHe.doGetAvailableTypes (C:\snapshot\cls-source\dist\main.js:2590:22991)
+    at async HHe.getAllAvailableTypes (C:\snapshot\cls-source\dist\main.js:2590:22671)
+    at async HHe.getPreferredType (C:\snapshot\cls-source\dist\main.js:2590:23500)
+    at async Rw.tryInit (C:\snapshot\cls-source\dist\main.js:2623:38351) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.518
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Venkatesan\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.519
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\Venkatesan\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-16 23:55:24.528
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[lsp] Request checkStatus: FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\cls-source\dist\main.js:1503:30559)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async cachingFetch (C:\snapshot\cls-source\dist\main.js:1503:32639)
+    at async EX.fetch (C:\snapshot\cls-source\dist\main.js:3770:43808)
+    at async tNe.fetch (C:\snapshot\cls-source\dist\main.js:3895:39961)
+    at async apiFetch (C:\snapshot\cls-source\dist\main.js:1531:8658)
+    at async authFromGitHubSession (C:\snapshot\cls-source\dist\main.js:1531:25116)
+    at async GMe.fetchTokenResult (C:\snapshot\cls-source\dist\main.js:1531:26527)
+    at async Dt.fetchTokenResult (C:\snapshot\cls-source\dist\main.js:1542:20488)
+    at async C:\snapshot\cls-source\dist\main.js:1542:22212 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-09-16 23:55:24.529
+!MESSAGE [Error] org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
+	at java.base/java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:1097)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:455)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+	... 11 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.559
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://api.github.com/embeddings/models> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-16 23:55:24.561
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[GithubAvailableEmbeddingTypes] Error fetching available embedding types FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\cls-source\dist\main.js:1503:30559)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async cachingFetch (C:\snapshot\cls-source\dist\main.js:1503:32639)
+    at async EX.fetch (C:\snapshot\cls-source\dist\main.js:3770:43808)
+    at async tNe.fetch (C:\snapshot\cls-source\dist\main.js:3895:39961)
+    at async apiFetch (C:\snapshot\cls-source\dist\main.js:1531:8658)
+    at async HHe.doGetAvailableTypes (C:\snapshot\cls-source\dist\main.js:2590:22991)
+    at async C:\snapshot\cls-source\dist\main.js:2590:22849
+    at async HHe.getPreferredType (C:\snapshot\cls-source\dist\main.js:2590:23500)
+    at async Rw.tryInit (C:\snapshot\cls-source\dist\main.js:2623:38351) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:24.562
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Could not find any available embedding types. Error: requestFailed
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-09-16 23:55:24.679
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:39.535
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND copilot-telemetry.githubusercontent.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'copilot-telemetry.githubusercontent.com'
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-09-16 23:55:39.558
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://dc.services.visualstudio.com/v2/track> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+}
+
+!ENTRY org.eclipse.ui.ide 4 0 2026-09-16 23:56:10.763
+!MESSAGE Could not import project located at C:\Users\Venkatesan\OneDrive\Desktop\records\hackwithinfy
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at C:\Users\Venkatesan\OneDrive\Desktop\records\hackwithinfy
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:571)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'hackwithinfy' at 'file:/C:/Users/Venkatesan/OneDrive/Desktop/records/hackwithinfy' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:316)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:302)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:610)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:558)
+	... 2 more
+
+!ENTRY org.eclipse.ui.ide 4 0 2026-09-16 23:57:03.966
+!MESSAGE Could not import project located at C:\Users\Venkatesan\OneDrive\Desktop\records\hackwithinfy
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at C:\Users\Venkatesan\OneDrive\Desktop\records\hackwithinfy
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:571)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'hackwithinfy' at 'file:/C:/Users/Venkatesan/OneDrive/Desktop/records/hackwithinfy' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:316)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:302)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:610)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:558)
+	... 2 more
