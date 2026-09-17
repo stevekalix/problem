@@ -1,4 +1,4 @@
-package Folders;
+package Folders.Permutation;
 import java.util.ArrayList;
 
 public class Problemtwo{

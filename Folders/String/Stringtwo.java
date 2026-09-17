@@ -19,11 +19,11 @@ public class Stringtwo {
        ArrayList<Map.Entry<Integer,Integer>> list = new ArrayList<>(mp.entrySet());
        Collections.sort(list , (a,b)-> b.getValue().compareTo(a.getValue()));
 
-
-
      for(Map.Entry<Integer,Integer> entry : list){
          System.out.println(entry.getKey() +" " + entry.getValue());
      }
+
+     
 
     }
     
