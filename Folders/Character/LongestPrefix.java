@@ -23,6 +23,8 @@ public class LongestPrefix {
             i++;
         }
 
+
+        
         System.out.println(index); // 4 //2
     }
 
