@@ -27,21 +27,21 @@ public class LinkedList {
     public static Node insertAtPosition1(Node hNode, int val , int position){
 
        
-        if(position == 1){
-            Node node_new = new Node(val);
-            node_new.next = hNode;
-            return node_new;
-        }
-        Node curr = hNode;
-        int index =1;
+        // if(position == 1){
+        //     Node node_new = new Node(val);
+        //     node_new.next = hNode;
+        //     return node_new;
+        // }
+         Node curr = hNode;
+       
+        for(int i=1 ;i < position  && curr != null ;i++){
 
-        while (index<position && curr!=null) {
             curr = curr.next;
-            index++;
         }
         Node newname = new Node(val);
         newname.next = curr.next;
         curr.next = newname;
+        
 
         return  hNode;
     }
@@ -72,7 +72,7 @@ public class LinkedList {
         //     number_Input--;
         // }
 
-        head = insertAtPosition1(head, 990 ,3);
+        head = insertAtPosition1(head, 990 ,1);
 
     
         Print(head);
